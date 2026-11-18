@@ -1,7 +1,7 @@
 # curt-codex
 
 Two-direction bridge between [OpenAI Codex CLI](https://github.com/openai/codex)
-session rollout files and the [`.curt`](https://github.com/JordanNewell/dot_curt)
+session rollout files and the [`.curt`](https://github.com/dotcurt/dot_curt)
 single-file conversation format. Built on
 [`curt-format`](https://www.npmjs.com/package/curt-format) (reference
 implementation, v1 core). Part of the `curt-*` converter family (`curt-convert`
@@ -234,13 +234,13 @@ Real-corpus runs write into `work/` (gitignored from the start).
 
 ## Part of the .curt suite
 
-- [`curt-format`](https://github.com/JordanNewell/dot_curt) — the .curt format spec + reference implementation ([npm](https://www.npmjs.com/package/curt-format))
-- [`curt-convert`](https://github.com/JordanNewell/curt-convert) — Claude Code transcripts → .curt ([npm](https://www.npmjs.com/package/curt-convert))
-- [`curt-openclaw`](https://github.com/JordanNewell/curt-openclaw) — OpenClaw session transcripts → .curt ([npm](https://www.npmjs.com/package/curt-openclaw))
-- [`curt-hermes`](https://github.com/JordanNewell/curt-hermes) — Hermes agent store ⇄ .curt ([npm](https://www.npmjs.com/package/curt-hermes))
-- [`curt-wildchat`](https://github.com/JordanNewell/curt-wildchat) — WildChat-1M records → .curt ([npm](https://www.npmjs.com/package/curt-wildchat))
-- [`curt-vcon`](https://github.com/JordanNewell/curt-vcon) — .curt ⇄ vCon (IETF) bridge ([npm](https://www.npmjs.com/package/curt-vcon))
-- [`curt-openwith`](https://github.com/JordanNewell/curt-openwith) — double-click any .curt file: offline viewer, Windows + macOS + Linux
+- [`curt-format`](https://github.com/dotcurt/dot_curt) — the .curt format spec + reference implementation ([npm](https://www.npmjs.com/package/curt-format))
+- [`curt-convert`](https://github.com/dotcurt/curt-convert) — Claude Code transcripts → .curt ([npm](https://www.npmjs.com/package/curt-convert))
+- [`curt-openclaw`](https://github.com/dotcurt/curt-openclaw) — OpenClaw session transcripts → .curt ([npm](https://www.npmjs.com/package/curt-openclaw))
+- [`curt-hermes`](https://github.com/dotcurt/curt-hermes) — Hermes agent store ⇄ .curt ([npm](https://www.npmjs.com/package/curt-hermes))
+- [`curt-wildchat`](https://github.com/dotcurt/curt-wildchat) — WildChat-1M records → .curt ([npm](https://www.npmjs.com/package/curt-wildchat))
+- [`curt-vcon`](https://github.com/dotcurt/curt-vcon) — .curt ⇄ vCon (IETF) bridge ([npm](https://www.npmjs.com/package/curt-vcon))
+- [`curt-openwith`](https://github.com/dotcurt/curt-openwith) — double-click any .curt file: offline viewer, Windows + macOS + Linux
 
 MIT — see [LICENSE](LICENSE). See also
 [ACCESS-AND-LICENSE.md](ACCESS-AND-LICENSE.md) for the input-data access and
